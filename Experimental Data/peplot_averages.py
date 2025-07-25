@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Path to the NPZ file containing measurement counts
-DATA_PATH = os.path.join('Experimental Data', 'IQCC_RawCounts.npz')
+DATA_PATH = 'IQCC_RawCounts.npz'
 
 # Load arrays from the NPZ file
 with np.load(DATA_PATH) as data:
