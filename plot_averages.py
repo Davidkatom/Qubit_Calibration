@@ -21,4 +21,5 @@ for ax, (name, arr) in zip(axes, arrays.items()):
     ax.set_ylabel('Average')
 
 plt.tight_layout()
+plt.savefig('averages.png')
 plt.show()
