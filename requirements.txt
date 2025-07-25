@@ -1,0 +1,9 @@
+numpy
+scipy
+sympy
+qutip
+qutip-qip
+matplotlib
+pandas
+tqdm
+jupyter
